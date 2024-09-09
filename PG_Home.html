@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Nicolas Camargo">
+        <meta name="description" content="Research project web page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <!-- Imports the library for icons -->
+        <script src="https://kit.fontawesome.com/6b55d02144.js" crossorigin="anonymous"></script>
+        <!-- Imports the library for CSS transitions -->
+        <script src="https://unpkg.com/swup@4"></script>
+        <!-- Import a Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="PG_Styles.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img id="header-logo" class="Ulogo" src="PageMultimedia/UniversidadLogo.jpg" alt="San Buenaventura University logo">
+            </div>
+            <div id="hpage">
+                <a class="initialH linkHome" href="PG_Home.html">Inicio</a>
+                <a class="initialH linkVideos" href="PG_Videos.html">Videos</a>
+                <a class="initialH linkAbout" href="PG_About.html">Acerca de</a>
+            </div>
+        </header>
+        <main id="swup" class="transition-page">
+            <div id="showcase-home" class="showcase">
+                <div id="showcase-cont" class="showcase-contHome">
+                    <h1>Bienvenidos al Humedal Torca-Guaymaral</h1>
+                    <p>Esta página web es producto del proyecto de grado "Diferencia en la percepción de agradabilidad y actividad de 9 entornos acústicos capturados en el humedal Torca-Guaymaral" desarrollado por estudiantes de ingeniería de sonido de la universidad San Buenaventura.</p>
+                    <a href="PG_About.html">Más Info <i class="fa-solid fa-chevron-right fa-s"></i></a>
+                </div>
+            </div>
+            <div id="hp-sec">
+                <img id="TG-P1" src="PageMultimedia/HearingPoint.jpg" alt="Torca-Guaymaral foto">
+                <div id="hearingPoints">
+                    <h3>Puntos de Escucha</h3>
+                    <div id="map">
+                        <img id="TG-map" src="PageMultimedia/map.png" alt="Torca-Guaymaral hearing points map">
+                        <a href="PG_Videos.html#UbPunto1"><i id="point1" class="fa-solid fa-location-dot fa-3x location"></i></a>
+                        <a href="PG_Videos.html#UbPunto2"><i id="point2" class="fa-solid fa-location-dot fa-3x location"></i></a>
+                        <a href="PG_Videos.html#UbPunto3"><i id="point3" class="fa-solid fa-location-dot fa-3x location"></i></a>
+                    </div>
+                </div> 
+            </div>
+            <div id="htg-sec">
+                <h3>Humedal Torca-Guaymaral</h3>
+                <div id="TG-descrip">
+                    <img id="TG-P2" src="PageMultimedia/HTG-Descrip.jpg" alt="Torca-Guaymaral foto">
+                    <p>El humedal Torca-Guaymaral es un área protegida que hace parte de la estructura ecológica principal del Distrito Capital, se encuentra divido en dos segmentos, separados por la Autopista Norte en el que también es el límite de las localidades de Suba y Usaquén. El sector de Torca (localidad de Usaquén) cuenta con un área de 30.27 hectáreas, mientras que el sector de Guaymaral (localidad de Suba) cuenta con un área de 49.66 hectáreas.
+                        <br />
+                        El humedal esta compuesto por un ecosistema complejo de cuerpos de agua, a su alrededor resguarda flora y fauna mediante procesos de resiliencia y adaptación.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="fotter-content">
+                <img id="footer-logo" class="Ulogo" src="PageMultimedia/UniversidadLogo.jpg" alt="San Buenaventura University logo">
+                <div id="fpage">
+                    <a class="initialF linkHome" href="PG_Home.html">Inicio</a>
+                    <a class="initialF linkVideos" href="PG_Videos.html">Videos</a>
+                    <a class="initialF linkAbout" href="PG_About.html">Acerca de</a>
+                </div>
+            </div>
+            <button id="GoUp">Subir <i class="fa-solid fa-chevron-up"></i></button>
+        </footer>
+        <script src="PG_Main.js"></script>
+    </body>
+</html>
