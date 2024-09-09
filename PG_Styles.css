@@ -125,7 +125,7 @@ header{
 /* Home Page - Hearing Points Sec */
 #hp-sec{
     width: 75%;
-    height: 80vh;
+    height: 100vh;
     background: #7f943a;
     display: flex;
     z-index: 2;
@@ -545,6 +545,7 @@ html.is-animating .transition-page{
     /* Hearing Points Section */
     #hp-sec{
         top: -10vh;
+        height: 90vh;
     }
     #TG-P1{
         display: none;
@@ -676,6 +677,10 @@ html.is-animating .transition-page{
         font-size: 15px;
     }
     /* Home Page Ajustment */
+    /* Hearing Point */
+    #hp-sec{
+        height: 80vh;
+    }
     /* Humedal TG Section */
     #htg-sec{
         margin: 0 auto 20px;
@@ -689,12 +694,12 @@ html.is-animating .transition-page{
     }
     /* Videos Page Ajustment */
     .Loc-Img{
-        min-width: none;
-        min-height: none;
+        min-width: 0;
+        min-height: 0;
     }
     .videos{
-        min-width: none;
-        min-height: none;
+        min-width: 0;
+        min-height: 0;
     }
     /* About Page Ajustment */
     /* Introduction Section */
@@ -742,4 +747,3 @@ html.is-animating .transition-page{
         font-size: 14px;
     }
 }
-
